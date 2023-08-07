@@ -15,7 +15,8 @@ cada model , sera una calse que heredadd propiedsdes de la clase moldls
 class productos( models.Model):
     nombre = models.CharField(max_length=30, null=False)
     precio =models.FloatField()
-    stock = models.IntegerField(default=0)
+    stock = models.IntegerField(default=0) 
+
     
     
 
